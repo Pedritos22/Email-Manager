@@ -35,3 +35,8 @@ Run the script by executing `main.py`:
 
 ```bash
 python3 main.py
+```
+
+### Notes:
+
+Its a work in progress project, any ideas are welcome, enjoy!
