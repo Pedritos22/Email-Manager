@@ -1,5 +1,5 @@
 import yaml
-import logging
+import logging 
 
 def load_credentials(filepath):
     try:
@@ -9,5 +9,5 @@ def load_credentials(filepath):
             password = credentials['password']
             return user, password
     except Exception as e:
-        logging.error("Failed to load credentials: {}".format(e))
+        logging.error(f"Couldn't load mail credentials: {e}")
         raise
