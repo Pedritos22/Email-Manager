@@ -1,0 +1,10 @@
+{
+    "emails": [
+    "placeholder@abc.com",
+    "test@123.com"
+    ]
+    }
+<<<<<<<< HEAD:Source/emails_to_delete.json
+    
+========
+>>>>>>>> 8b98cdf3ec8a22d0803165ad2d6b28402d93d68b:src/emails_to_delete.json

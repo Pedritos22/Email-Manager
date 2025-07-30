@@ -5,7 +5,6 @@ def get_emails_to_be_seen(mail, filepath):
     with open(filepath, 'r') as file:
         data = json.load(file)
         emails_to_mark = data['emails']
-
     mail.select("inbox")
 
     summary_rows = []
